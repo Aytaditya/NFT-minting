@@ -1,16 +1,16 @@
-const hre = require("hardhat");
+/* eslint-disable */
+
+const { ethers } = require("hardhat");
 
 async function main() {
-  const NFTMinting = await hre.ethers.getContractFactory("NFTMinting");
-  const nftMinting = await NFTMinting.deploy();
-  await nftMinting.deployed();
+  const MyContract = await ethers.getContractFactory("NFTMinting");
+  const myContract = await MyContract.deploy();
+  await myContract.deployed();
 
-  console.log("NFTMinting contract deployed to:", nftMinting.address);
+  console.log("Contract deployed to:", myContract.address);
 }
 
-main()
-  .then(() => process.exit(0))
-  .catch((error) => {
-    console.error(error);
-    process.exit(1);
-  });
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
