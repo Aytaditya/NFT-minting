@@ -14,7 +14,7 @@ Mintify is a decentralized application (DApp) that allows users to mint NFTs (No
 ![MetaMask Connection](./basic1.png)
 
 ## **Tech Stack**
-- **Frontend**: Nextjs, TypeScript
+- **Frontend**: Nextjs, TypeScript, Javascript
 - **Blockchain**: Ethereum, MetaMask, Ethers.js
 - **Smart Contract**: Solidity
 - **Tools**: Hardhat (for contract deployment), MetaMask (wallet), ethers.js (library for interacting with the blockchain)
