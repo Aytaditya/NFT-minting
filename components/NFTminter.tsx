@@ -96,7 +96,7 @@ export default function MetaMaskStyleNFTMinter() {
           </svg>
         </div>
       </div>
-      <h1 className="text-2xl font-bold mb-2 text-center text-gray-800">NFT Minter</h1>
+      <h1 className="text-3xl font-bold mb-2 text-center text-gray-800 uppercase tracking-tight">Mintify</h1>
       <p className="text-gray-600 mb-6 text-center text-sm">Connect your wallet and mint a new NFT</p>
       <div className="space-y-4">
         <button

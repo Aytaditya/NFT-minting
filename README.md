@@ -3,15 +3,15 @@
 
 Mintify is a decentralized application (DApp) that allows users to mint NFTs (Non-Fungible Tokens) directly from their MetaMask wallet. This project integrates MetaMask for wallet connectivity and uses the Ethereum blockchain to mint unique digital assets with custom metadata (via a token URI).
 
-![Landing](./landing1.png)
-![Wallet Connection](./connection.png)
+![Landing](./landing2.png)
+![Wallet Connection](./connection1.png)
 
 ## **Features**
 - **Connect MetaMask Wallet**: Users can easily connect their MetaMask wallet to the DApp.
 - **Mint NFTs**: Users can mint their own NFTs by entering a token URI (a link to the digital asset metadata).
 - **Ethereum Smart Contract**: The DApp interacts with an Ethereum smart contract to mint NFTs securely.
 
-![MetaMask Connection](./basic.png)
+![MetaMask Connection](./basic1.png)
 
 ## **Tech Stack**
 - **Frontend**: Nextjs, TypeScript
@@ -108,4 +108,4 @@ To deploy this DApp on a live server, follow these steps:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-![Interaction with wallet](./nft.png)
+![Interaction with wallet](./nft1.png)
